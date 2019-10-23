@@ -131,7 +131,8 @@ void commandMode(){
 				normalMode();
 			}
 			else{
-
+				#continuing to get new chars in all other cases, where char is not matched.
+				continue;
 			}
 		}
 	}
